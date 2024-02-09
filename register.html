@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHOL'S WEBSITE</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">CHOL'S WEBSITE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="product.html">PRODUCT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="containerr">
+        <form class="signup-form">
+            <h2>SIGNUP</h2>
+            <div class="input-container">
+                    <input type="text" id="signup-firstname" required>
+                    <label for="signup-firstname">First Name</label>
+            </div>
+            <div class="input-container">
+                    <input type="text" id="signup-lastname" required>
+                    <label for="signup-lastname">Last Name</label>
+            </div>
+            <div class="input-container">
+                    <input type="password" id="signup-password" required>
+                    <label for="signup-password">Password</label>
+            </div>
+            <div class="input-container">
+                    <input type="password" id="signup-confirm-password" required>
+                    <label for="signup-confirm-password">Confirm Password</label>
+            </div>
+            <div class="input-container">
+                    <input type="email" id="signup-email" required>
+                    <label for="signup-email">Email</label> 
+            </div>
+                <button type="submit">Sign Up</button>
+                <p style="color: white;">Already have an account? <a href="login.html" style="text-decoration: none;">Login</a></p>
+        </form>
+    </div>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

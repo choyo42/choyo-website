@@ -1,0 +1,235 @@
+/* Global Styles */
+body {
+    padding-top: 50px;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: red;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    transition: border-bottom-color 0.3s; /* Added transition for smooth border color change */
+    border-bottom: 2px solid transparent; /* Initial border style */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    border-bottom-color: red; /* Change hover border color to red */
+}
+
+/* About Page Styles */
+.about-section {
+    background-color: #f3c8c8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-heading {
+    font-size: 36px;
+    color: #007bff;
+}
+
+.about-content {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Contact Page Styles */
+.contact-section {
+    background-color: rgb(238, 57, 57);
+    color: black;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-heading {
+    font-size: 36px;
+}
+
+.contact-content {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form button {
+    margin-top: 10px;
+}
+
+/* ... (other styles remain unchanged) ... */
+
+
+.containerr {
+    background-color: #111;
+    border-radius: 8px;
+    padding: 30px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: auto; /* Center the container */
+    margin-top: 50px; /* Add spacing from the top */
+}
+  
+  h2 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    transition: border-bottom-color 0.3s;
+  }
+  
+  input:focus,
+  input:valid {
+    border-bottom-color: #ff4b2b;
+  }
+  
+  label {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    color: #fff;
+    pointer-events: none;
+    transition: transform 0.3s, font-size 0.3s;
+  }
+  
+  input:focus + label,
+  input:valid + label {
+    transform: translateY(-24px);
+    font-size: 0.8em;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #ff4b2b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff416c;
+  }
+  
+  p {
+    color: white;
+    margin-top: 10px;
+  }
+  
+  
+/* Start Page Styles */
+.start-section {
+    background-color: red; /* Updated background color */
+    color: white; /* Updated text color */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.start-heading {
+    font-size: 36px;
+}
+
+.start-content {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.start-button {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Product Page Styles */
+.product-section {
+    background-color: #d8b6b6;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.product-heading {
+    font-size: 36px;
+    color: #007bff;
+}
+
+.product-content {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px; /* Adjusted padding for smaller screens */
+    }
+
+    .navbar-toggler {
+        margin: 10px 0; /* Adjusted margin for smaller screens */
+    }
+
+    .navbar-nav {
+        margin-top: 10px; /* Add spacing between navbar and login form */
+    }
+
+    .containerr {
+        width: 90%; /* Adjusted width for smaller screens */
+    }
+}
